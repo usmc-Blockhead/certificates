@@ -3,14 +3,14 @@ html {
     font-family: 'Strait', sans-serif;*/
     font-family: 'Roboto Condensed', sans-serif;
     font-size: 20px;
-    color: #304269;
+    color: #04080f;
 }
 
 header {
     min-height: 50px;
     max-height: 120px;
     width: 100%;
-    background-color: #304269;
+    background-color: #ce2ea6;
     position: fixed;
     margin: -5px auto 0;
 }
@@ -64,17 +64,17 @@ header a {
 
 a {
     text-decoration: none;
-    color: #304269;
+    color: #050505;
 }
 
 a:hover {
     /*background-color: #F26101;*/
-    color: #F26101;
+    color: #050403;
 }
 
 h2 {
     text-align: center;
-    color: #304269;
+    color: #ce2ea6;
 }
 
 .inner {
@@ -104,12 +104,12 @@ body {
 }
 
 #About_me {
-    background-color: #779BAD;
+    background: linear-gradient(68.6deg, rgb(252, 165, 241) 1.8%, rgb(181, 255, 255) 100.5%);
     min-height: 200px;
 }
 
 #Skills {
-    background-color: #D9E8F5;
+    background-color: #f5d9f3;
     min-height: 100px;
 }
 
@@ -121,10 +121,13 @@ body {
 }
 
 #Projects {
-    background-color: #779BAD;
+    background: linear-gradient(68.6deg, rgb(252, 165, 241) 1.8%, rgb(181, 255, 255) 100.5%);
     min-height: 100px;
 }
 
+#Badges {
+    background: linear-gradient(68.6deg, rgb(252, 165, 241) 1.8%, rgb(181, 255, 255) 100.5%);
+}
 .port {
     display: flex;
     flex-wrap: wrap;
@@ -144,7 +147,7 @@ body {
 }
 
 #Certificates {
-    background-color: #D9E8F5;
+    background-color: #f5d9f3;
     min-height: 100px;
 }
 
@@ -156,18 +159,18 @@ body {
 }
 
 #Contact {
-    background-color: #999999;
+    background-color: #f5d9f3;;
     min-height: 100px;
 }
 
 #container {
     margin: 0 auto 30px;
-    border: 3px solid #304269;
+    border: 3px solid #0f060d;
     width: 700px;
     -webkit-birder-radius: 6px;
     -moz-border-radius: 6px;
     border-radius: 6px;
-    background-color: #999999;
+    background-color: #f5d9f3;
     font-family: 'Roboto Condensed', sans-serif;
 }
 
@@ -183,7 +186,7 @@ textarea {
     padding: 4px;
     outline: 0;
     width: 300px;
-    background: #D9E8F5;
+    background: #f7f6f7;
     -webkit-birder-radius: 4px;
     -moz-border-radius: 4px;
     border-radius: 4px;
@@ -202,8 +205,8 @@ textarea {
 .send input {
     width: 150px;
     margin-bottom: 10px;
-    border: 2px solid #D9E8F5;
-    background-color: #304269;
+    border: 2px solid #0b0e11;
+    background-color: #ce2ea6;
     color: #D9E8F5;
     font-family: 'Roboto Condensed', sans-serif;
 }
@@ -254,12 +257,12 @@ textarea:focus {
 }
 
 .link {
-    border: solid 2px #D9E8F5;
+    border: solid 2px #020608;
     margin: 3px 2px 2px 10px;
     padding: 4px;
     outline: 0;
     width: 150px;
-    background: #304269;
+    background: #ce2ea6;
     border-radius: 4px;
     color: #D9E8F5;
     text-align: center;
@@ -284,7 +287,7 @@ textarea:focus {
 footer {
     height: 50px;
     width: 100%;
-    background-color: #304269;
+    background-color: #ce2ea6;
     text-align: center;
     color: #fff;
 }
